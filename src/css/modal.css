@@ -1,0 +1,53 @@
+@keyframes modalFadeIn {
+    0% {
+        opacity: 0%;
+    };
+
+    100% {
+        opacity: 100%;
+    };
+}
+
+.modal {
+    display: none;
+    background: #F1F5F8;
+    height: 100vh;
+    width: 100vw;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+
+    animation: modalFadeIn 0.4s;
+}
+
+.modal-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-image {
+    position: relative;
+    top: 100px;
+}
+
+.modal-image img {
+    width: 1000px;
+}
+
+.modal-description {
+    position: relative;
+    top: 80px;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+.modal-title p {
+    position: relative;
+    top: 50px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
