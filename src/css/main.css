@@ -54,21 +54,32 @@ body {
 }
 
 #self-intro-role {
-    width: 100%;
+    width: 60%;
     color: #A7A2A8;
     position: absolute;
-    left: 25.5%;
-    top: 60%;
+    left: 30.5%;
+    top: 63%;
     font-family: sans-serif;
     font-size: 23px;
     font-weight: 300;
     text-align: left;
 }
 
+#self-intro-role-1 {
+    position: relative;
+    left: -9%;
+}
+
+#self-intro-role-2 {
+    position: relative;
+    margin-top: 5px;
+    left: 2%;
+}
+
 #self-intro .icon-row {
     position: absolute;
     left: 25.5%;
-    top: 70%;
+    top: 76%;
     width: 150px;
 
     display: flex;
@@ -93,7 +104,7 @@ body {
 
     position: relative;
     left: 20%;
-    top: 55%;
+    top: 58%;
     transform: translate(-50%, -50%);
 }
 
