@@ -1,0 +1,65 @@
+@media screen and (max-width: 1200px) {
+    #banner {
+        position: fixed;
+        z-index: 9000;
+        width: 100vw;
+        height: 80px;
+        background-color: gray;
+        overflow: hidden;
+    }
+    
+    #banner-smaller {
+        position: fixed;
+        z-index:9000;
+        width: 100vw;
+        height: 55px;
+        background-color: gray;
+    }
+    
+    #banner #navbar {
+        width: 50%;
+        position: relative;
+        left: 43%;
+        top: 50%;
+        transform: translateY(-50%);
+    
+        color: white;
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+    
+    #banner-smaller #navbar {
+        width: 50%;
+        position: relative;
+        left: 43%;
+        top: 50%;
+        transform: translateY(-50%);
+    
+        color: white;
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+    
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+    
+    #navbar .nav-section {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    
+    #navbar .nav-section.active {
+        background-color: black;
+        border-radius: 7px;
+        box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.3);
+    }
+}

@@ -1,0 +1,99 @@
+@media screen and (max-width: 1200px) {
+    #project {
+        padding-top: 70px;
+        background-color: #FFFFFF;
+        width: 100vw;
+        padding-bottom: 90px;
+    }
+    
+    #project-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    
+    .project-item {
+        background-color: #F1F5F8;
+        width: 400px;
+        height: 450px;
+        margin-top: 50px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 20px 15px 15px rgba(0, 0, 0, 0.3);
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .project-image {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border: #F1F5F8 solid 10px;
+        }
+    }
+    
+    .project-image img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        cursor: pointer;
+    }
+    
+    .project-image img:hover {
+        opacity: 80%;
+    }
+    
+    .project-description {
+        width: 100%;
+        position: relative;
+        margin-top: -210px;
+    }
+    
+    .project-title {
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 700;
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        text-align: center;
+    }
+    
+    .project-link {
+        font-size: 17px;
+        text-decoration: underline;
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .project-details {
+        position: relative;
+        width: 90%;
+        height: 50%;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-top: 10px;
+    }
+    
+    .project-details p {
+        position: relative;
+        top: 0;
+        font-size: 17px;
+        font-family: sans-serif;
+        font-weight: 400;
+        color: rgb(90, 89, 89);
+        line-height: 30px;
+    }
+}
