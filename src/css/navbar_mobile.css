@@ -19,7 +19,7 @@
     #banner #navbar {
         width: 50%;
         position: relative;
-        left: 43%;
+        left: 35%;
         top: 50%;
         transform: translateY(-50%);
     
@@ -36,7 +36,7 @@
     #banner-smaller #navbar {
         width: 50%;
         position: relative;
-        left: 43%;
+        left: 35%;
         top: 50%;
         transform: translateY(-50%);
     
